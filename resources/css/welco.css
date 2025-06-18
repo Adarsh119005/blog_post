@@ -1,0 +1,23 @@
+  .imagin {
+      position: relative;
+      display: inline-block;
+  }
+
+  .imagin img {
+      width: 100%;
+      height: auto;
+      display: block;
+  }
+
+  .imagin h1 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 10px 20px;
+      border-radius: 10px;
+      font-size: 2em;
+      text-align: center;
+  }
