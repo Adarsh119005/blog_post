@@ -19,7 +19,7 @@ class AuthController extends Controller
    public function register(Request $request)
     {
 
-         
+        set_time_limit(0);
         
         $request->validate([
             'name' => 'required',
